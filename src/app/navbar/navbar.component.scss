@@ -1,0 +1,262 @@
+
+
+.wrap{
+	background: #090f35;
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+
+	.phone{
+		font-size: 12px;
+		color: rgba(255,255,255,.8);
+		a{
+			color: white;
+			font-size: 12px;
+		}
+		.fa{
+			color: rgba(255,255,255,.8);
+		}
+		.mailus{
+			color: rgba(255,255,255,.6);
+		}
+	}
+}
+.social-media{
+	display: inline-block;
+	p{
+		a{
+			width: 28px;
+			height: 28px;
+			// background: #323edd;
+			margin-right: 7px;
+			border-radius: 50%;
+			span{
+				color: #fff;
+			}
+			&:hover{
+				span{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+
+.ftco-navbar-light {
+	background: transparent!important;
+	position: relative;
+	top: 50px;
+	left: 0;
+	right: 0;
+	z-index: 3;
+  margin-bottom: 20px;
+  back
+
+	.container{
+		width: 1110px;
+		margin: 0 auto;
+		// padding: 0;
+
+	}
+
+	.navbar-brand {
+		color: #323edd;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		span{
+			color: #090f35;
+		}
+		&:hover{
+			color: #323edd;
+		}
+
+	}
+
+	.navbar-nav {
+
+		> .nav-item {
+			> .nav-link {
+				font-size: 15px;
+				padding-top: 1.5rem;
+				padding-bottom: 1.5rem;
+				padding-left: 20px;
+				padding-right: 20px;
+				color: #000000;
+				font-weight: 400;
+				&:hover, &:focus {
+					color: #000000;
+				}
+				opacity: 1!important;
+
+			}
+
+			.dropdown-menu{
+				border: none;
+				background: #fff;
+				-webkit-box-shadow: 0px 10px 34px -20px rgba(0,0,0,0.41);
+				-moz-box-shadow: 0px 10px 34px -20px rgba(0,0,0,0.41);
+				box-shadow: 0px 10px 34px -20px rgba(0,0,0,0.41);
+			}
+
+
+			&.ftco-seperator {
+				position: relative;
+				margin-left: 20px;
+				padding-left: 20px;
+
+				&:before {
+					position: absolute;
+					content: "";
+					top: 10px;
+					bottom: 10px;
+					left: 0;
+					width: 2px;
+					background: rgba(#fff, .05);
+
+				}
+			}
+			&.cta {
+				> a {
+					color: #fff;
+					border: 1px solid #323edd;
+					padding-top: .8rem;
+					padding-bottom: .8rem;
+					padding-left: 18px;
+					padding-right: 18px;
+					background: #323edd;
+					margin-top: .5rem;
+
+					span {
+						display: inline-block;
+						color: #fff;
+					}
+					&:hover{
+						background: #323edd;
+						border: 1px solid #323edd;
+					}
+				}
+				&.cta-colored {
+					a{
+						border: 1px solid #ffa41b;
+						background: #ffa41b !important;
+					}
+				}
+			}
+			&.active {
+				> a {
+					color: #323edd;
+				}
+			}
+
+		}
+	}
+	.navbar-toggler {
+		border: none;
+		color: rgba(255,255,255,.5)!important;
+		cursor: pointer;
+		padding-right: 0;
+		text-transform: uppercase;
+		font-size: 16px;
+		letter-spacing: .1em;
+		&:hover, &:focus {
+			text-decoration: none;
+			color: #323edd;
+			outline: none !important;
+		}
+	}
+
+	&.scrolled  {
+		position: fixed;
+		right: 0;
+		left: 0;
+		top: 0;
+		margin-top: -130px;
+		background: #fff!important;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+		padding: 0;
+		.nav-item {
+			> .nav-link{
+
+			}
+			&.active {
+				> a {
+					color: #323edd!important;
+				}
+			}
+			&.cta {
+				> a {
+					color: #fff !important;
+					background: #323edd;
+					border: none !important;
+					padding-top: .5rem!important;
+					padding-bottom: .5rem !important;
+					padding-left: 20px !important;
+					padding-right: 20px !important;
+					margin-top: 6px !important;
+
+					span {
+						display: inline-block;
+						color: #fff !important;
+					}
+				}
+				&.cta-colored {
+					span {
+						border-color: #323edd;
+					}
+				}
+			}
+		}
+
+		.navbar-nav {
+		}
+
+		.navbar-toggler {
+			border: none;
+			color: rgba(0,0,0,.5)!important;
+			border-color: rgba(0,0,0,.5)!important;
+			cursor: pointer;
+			margin-right: 15px !important;
+			text-transform: uppercase;
+			font-size: 16px;
+			letter-spacing: .1em;
+
+		}
+		.nav-link {
+			padding-top: 1rem!important;
+			padding-bottom: 1rem!important;
+			color: #000000!important;
+			&.active {
+				color: #323edd!important;
+			}
+		}
+		&.awake {
+			margin-top: 0px;
+			transition: .3s all ease-out;
+		}
+		&.sleep {
+			transition: .3s all ease-out;
+		}
+
+		.navbar-brand {
+			color: #323edd;
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+			span{
+				color: #ffa41b;
+			}
+		}
+	}
+}
+
+.navbar-brand {
+	font-weight: 900;
+	font-size: 20px;
+	span{
+		font-weight: 900;
+		color: #000000;
+	}
+}
