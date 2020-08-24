@@ -9,6 +9,14 @@ import { ClientsComponent } from './clients/clients.component';
 
 const routes: Routes = [
   {
+    path: 'user',
+    loadChildren: () => import('./pages/user/user.module').then(m => m.UserModule),
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule),
+  },
+  {
     path: 'home',
     component: HomeComponent,
   },
